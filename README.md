@@ -4,14 +4,13 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.9+-red.svg)](https://pytorch.org)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ## What is BrainGraphClustering?
 
 This repository provides **two powerful approaches** for automatically dividing the brain's surface into meaningful regions (parcellation) based on how different brain areas work together:
 
-1. **🔬 gwMRF (Gradient Weighted Markov Random Field)**: A robust Python reimplementation of the established CBIG gwMRF pipeline
-2. **🚀 Deep Modularity with Contrastive Learning**: A cutting-edge approach using artificial intelligence to discover better brain regions
+1. **gwMRF (Gradient Weighted Markov Random Field)**: A robust Python reimplementation of the established CBIG gwMRF pipeline
+2. **Deep Modularity with Contrastive Learning**: A cutting-edge approach using artificial intelligence to discover better brain regions
 
 Think of it like this: Instead of manually drawing boundaries on a brain map, these methods automatically find the "natural borders" where brain function changes, creating a more accurate map of how the brain is organized.
 
@@ -72,7 +71,7 @@ Make sure you have:
 
 3. **Verify installation:**
    ```bash
-   python -c "import torch; print('PyTorch version:', torch.__version__)"
+   python3 -c "import torch; print('PyTorch version:', torch.__version__)"
    ```
 
 ## How to Use
