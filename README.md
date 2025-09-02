@@ -215,15 +215,6 @@ your_data/
     └── rh_grad.npy    # Right hemisphere gradients
 ```
 
-## Which Method Should You Choose?
-
-| Consideration | Choose gwMRF if... | Choose Deep Learning if... |
-|---------------|-------------------|----------------------------|
-| **Speed** | You need results quickly | You can wait for better results |
-| **Data size** | You have limited data | You have lots of data |
-| **Interpretability** | You need to understand every step | You want the best possible results |
-| **Customization** | You want to fine-tune parameters | You want automatic optimization |
-| **Reliability** | You need proven methods | You want cutting-edge performance |
 
 ## Contributing
 
